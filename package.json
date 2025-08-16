@@ -4,17 +4,9 @@
   "description": "Portafolio web estático para Intelicore",
   "main": "portafolio.html",
   "scripts": {
-    "start": "npx serve . -p $PORT",
-    "build": "echo 'Build completado - archivos estáticos listos'",
-    "dev": "npx serve . -p 3000"
+    "start": "npx serve . -p $PORT"
   },
-  "keywords": ["portfolio", "static", "html", "tailwind", "whatsapp"],
+  "keywords": ["portfolio", "static", "html"],
   "author": "Daniel Lenis",
-  "license": "MIT",
-  "engines": {
-    "node": ">=18.0.0"
-  },
-  "dependencies": {
-    "serve": "^14.2.0"
-  }
+  "license": "MIT"
 }
