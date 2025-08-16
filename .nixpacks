@@ -1,11 +1,11 @@
 [phases.setup]
-nixPkgs = ["nginx"]
+nixPkgs = ["nodejs_18", "npm-9_x"]
 
 [phases.install]
-cmds = ["echo 'Instalando nginx para servir archivos estáticos'"]
+cmds = ["npm install"]
 
 [phases.build]
-cmds = ["echo 'No se requiere build para archivos estáticos'"]
+cmds = ["npm run build"]
 
 [start]
-cmd = "nginx -g 'daemon off;'"
+cmd = "npm start"
