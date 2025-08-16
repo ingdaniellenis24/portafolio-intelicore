@@ -1,0 +1,11 @@
+[phases.setup]
+nixPkgs = ["nginx"]
+
+[phases.install]
+cmds = ["echo 'Instalando nginx para servir archivos estáticos'"]
+
+[phases.build]
+cmds = ["echo 'No se requiere build para archivos estáticos'"]
+
+[start]
+cmd = "nginx -g 'daemon off;'"

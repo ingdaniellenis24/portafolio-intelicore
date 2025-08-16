@@ -1,0 +1,14 @@
+{
+  "name": "intelicore-portfolio",
+  "version": "1.0.0",
+  "description": "Portafolio web estático para Intelicore",
+  "main": "portafolio.html",
+  "scripts": {
+    "start": "echo 'Aplicación estática - abrir portafolio.html en el navegador'",
+    "build": "echo 'No se requiere build para archivos estáticos'"
+  },
+  "keywords": ["portfolio", "static", "html", "tailwind", "whatsapp"],
+  "author": "Daniel Lenis",
+  "license": "MIT",
+  "type": "static"
+}
